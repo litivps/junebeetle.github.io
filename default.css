@@ -1,0 +1,86 @@
+body
+{
+  margin:0;
+  padding:0;
+  width:100%;
+  font-size:1em;
+  font-family:"Helvetica", sans-serif;
+  font-weight:100;
+  line-height:1.1em;
+  background-color:#22CC33;
+  background-attachment:fixed;
+}
+div
+{
+  box-shadow:10px 10px 10px #00A011;
+  margin:1vw;
+  padding:1vw;
+  position:relative;
+  left:21vw;
+  width:58vw;
+  border:1px solid #777777;
+  background-color:#EEEEEE;
+  z-index:1;
+  overflow:hidden;
+}
+#common
+{
+  box-shadow:10px 10px 10px #00A011;
+  position:fixed;
+  left:1vw;
+  top:1vw;
+  width:20vw;
+  height:50vh;
+  border:1px solid #777777;
+}
+#navigation
+{
+  margin:5vw;
+  width:180px;
+  height:100%;
+  overflow:auto;
+  background-color:#EEEEEE;
+}
+h1
+{
+  font-size:3em;
+  font-weight:400;
+  line-height:1em;
+  margin:0;
+}
+h2
+{
+  font-size:1.7em;
+  font-weight:400;
+  line-height:0.8em;
+}
+p
+{
+  color:#222222;
+  margin:0;
+}
+a
+{
+  font-weight:400;
+  color:#3333EE;
+  text-decoration:underline;
+}
+b
+{
+  color:#000000;
+  font-weight:400;
+}
+pre
+{
+  padding:0.5vw;
+  font-size:0.9em;
+  font-family:"Courier", monospace;
+  line-height:1em;
+  border:1px dashed #777777;
+  background-color:#FFFFFF;
+  overflow:auto;
+}
+object
+{
+  border: 1px dashed #777777;
+}
