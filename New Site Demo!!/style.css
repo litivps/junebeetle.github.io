@@ -3,7 +3,9 @@ body
   font-size:16px;
   font-family:"Helvetica",sans-serif;
   font-weight:100;
-  background-color:#33CC33;
+  background-color:#DDDDDD;
+  background-image:url("lines.png");
+  //background-color:#33CC33;
   //background-color:#66DD55;
   //background-image:url("grid.png");
 }
@@ -14,14 +16,14 @@ div
   width:800px;
   border:1px solid #666666;
   background-color:#FFFFFF;
-  border-radius:10px;
+  border-radius:8px;
   box-shadow:0px 5px 10px rgba(0,0,0,0.6);
 }
 iframe
 {
   border:0;
   width:100%;
-  height:100px;
+  height:105px;
 }
 .button
 {
@@ -36,6 +38,7 @@ iframe
 .button:hover
 {
   background-color:#EEEEEE;
+  //text-decoration:underline;
 }
 #navigation
 {
@@ -51,15 +54,25 @@ p
 h1
 {
   margin:5px;
-  font-weight:500;
-  font-size:300%;
+  font-weight:100;
+  font-size:350%;
 }
 h2
 {
   margin:5px;
-  font-weight:500;
+  font-weight:100;
+  font-size:200%;
 }
 b
 {
   font-weight:700;
+}
+pre
+{
+  padding:5px;
+  font-size:14px;
+  font-family:"Courier", monospace;
+  border:1px dashed #777777;
+  background-color:#EEEEEE;
+  overflow:auto;
 }
