@@ -5,6 +5,7 @@ body
   font-weight:100;
   background-color:#DDDDDD;
   background-image:url("lines.png");
+  background-attachment:fixed;
   //background-color:#33CC33;
   //background-color:#66DD55;
   //background-image:url("grid.png");
