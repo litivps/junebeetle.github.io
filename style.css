@@ -78,9 +78,19 @@ pre
 {
   padding:5px;
   font-size:14px;
-  font-family:"Courier", monospace;
+  font-family:"Courier",monospace;
   border:1px dashed #777777;
   background-color:#EEEEEE;
   overflow:auto;
   margin:0;
+}
+a
+{
+  color:#0022FF;
+  font-weight:500;
+  text-decoration:none;
+}
+a:hover
+{
+  text-decoration:underline;
 }
