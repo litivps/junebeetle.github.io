@@ -61,10 +61,10 @@ p
 }
 h1
 {
-  margin:0 0 0 5;
+  margin:5;
   padding:0;
   font-weight:100;
-  font-size:calc(100vh - 31px);
+  font-size:calc(100vh - 40px);
 }
 h2
 {
