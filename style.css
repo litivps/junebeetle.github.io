@@ -6,9 +6,6 @@ body
   background-color:#DDDDDD;
   background-image:url("lines.png");
   background-attachment:fixed;
-  //background-color:#33CC33;
-  //background-color:#66DD55;
-  //background-image:url("grid.png");
 }
 div
 {
@@ -20,7 +17,11 @@ div
   border-radius:8px;
   box-shadow:0px 5px 10px rgba(0,0,0,0.6);
 }
-iframe
+object
+{
+  border: 1px dashed #777777;
+}
+#header
 {
   border:0;
   width:100%;
@@ -39,7 +40,6 @@ iframe
 .button:hover
 {
   background-color:#EEEEEE;
-  //text-decoration:underline;
 }
 #navigation
 {
@@ -62,7 +62,13 @@ h2
 {
   margin:5px;
   font-weight:100;
-  font-size:200%;
+  font-size:230%;
+}
+h3
+{
+  margin:5px;
+  font-weight:100;
+  font-size:150%;
 }
 b
 {
@@ -76,4 +82,5 @@ pre
   border:1px dashed #777777;
   background-color:#EEEEEE;
   overflow:auto;
+  margin:0;
 }
