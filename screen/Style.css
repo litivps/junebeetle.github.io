@@ -1,0 +1,33 @@
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	text-shadow:#B0B0B0 10px 10px 10px;
+	cursor:none;
+	width:100vw;
+	height:100vh;
+	margin:0;
+}
+#dateSection
+{
+	font-size:9vh;
+}
+#timeSection
+{
+	font-size:45vh;
+}
+#timeSmallFont
+{
+	font-size:18vh;
+}
+#daySection
+{
+	font-size:17vh;
+}
+#spacerSmall
+{
+	height:5vh;
+}
+#spacerLarge
+{
+	height:6vh;
+}
