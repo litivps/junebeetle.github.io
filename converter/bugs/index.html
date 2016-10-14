@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<head>
+		<title>junebeetle</title>
+		<link rel="stylesheet" href="/style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<div>
+			<iframe src="/common.html" id="header"></iframe>
+		</div>
+		<div>
+			<h2>Known Problems</h2>
+			<p>I'll be the first to admit that this is a work in progress and is far from perfect. If you have read the <a href="/converter/troubleshooting">troubleshooting advice</a> and still can't get it to work, you may have found a bug. Please <a href="/contact/">let me know</a>. Here are some of the larger issues that I already know about, as well as any workarounds.
+
+</p>
+			<h3>Converted projects do not connect to the Scratch server.</h3>
+			<p>A SWF file cannot just randomly send and receive data from a server that it is not hosted on, so things such as the <i>username</i> block and Cloud Variables will not work. If you want to make a project that relies on these, it usually makes the most sense to host it on the Scratch website.
+
+</p>
+			<h3>Saving doesn't work in Chrome incognito mode.</h3>
+			<p>Due to what seems to be a bug in Google Chrome, if you try to use the converter in incognito mode, you will not be able to save the converted SWF file. Please switch to a non-incognito window or a different browser.
+
+</p>
+			<h3>White screen while project loads.</h3>
+			<p>Sometimes a converted project will show a white screen for a few seconds while the project loads, especially if you have a slow connection or your project is very large (larger than about 10 megabytes). The loading is done by the included copy of Scratch, not the converter, so there is nothing I can do about this.
+
+</p>
+			<h3>White bar on the bottom or right side of the SWF.</h3>
+			<p>If the dimensions of the converted SWF do not match the ratio that Scratch expects, there will be a white bar on whatever side is "too long". The Scratch stage is a 4:3 ratio, which is not something that I can easily change, and if I did it would mess up everything. Please adjust the dimensions of the SWF file in the converter or (if applicable) the web page that embeds it.
+
+</p>
+			<h3>Source code files might appear garbled on Windows.</h3>
+			<p>If you try to open the AS files in Notepad, the lines will all appear to be run together. This is because I use a Mac and the files have UNIX line endings. Please use a better text editor, such as WordPad or gedit.
+
+</p>
+			<h3>Converted projects do not load in newer versions of Flash Player.</h3>
+			<p>Adobe has changed the security restrictions in Flash Player 23 and onwards. They basically prevent <i>local</i> SWF files (saved on your computer) from being able to use some Loader functions that Scratch needs. This is not a problem that I forsee a solution to any time soon. However, there are several workarounds. You can host your SWF file on a website, or you can convert it to an EXE or macOS APP. This will bypass the security restriction by making the SWF no longer be a <i>local-with-network</i> file. See <a href="/converter/executables/">this page</a> for more info on converting SWF files to standalone executables for your platform.
+
+</p>
+			<h3>Please help me!</h3>
+			<p>Most of these problems aren't going to be fixed any time soon, simply because I don't know how to. This is usually because they are caused by limitations in Scratch or other software. I will continue to do research to see if there is anything I can do about them. If you know of any additional workarounds, please <a href="/contact/">contact me</a>.</p>
+		</div>
+	</body>
+</html>

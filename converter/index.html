@@ -13,33 +13,22 @@
 			<p><a class="button" href="/converter/online/">Online Converter</a>
 <a class="button" href="/converter/download/">Download</a>
 <a class="button" href="/converter/troubleshooting/">Troubleshooting</a>
+<a class="button" href="/converter/bugs/">Known Problems</a>
+<a class="button" href="/converter/executables/">Converting to EXEs or APPs</a>
 
 </p>
 			<h3>What is it?</h3>
-			<p>Hey Scratchers! Have you ever made an awesome game, but the friend you wanted to send it to didn't have Scratch? Or have you made a project that would be a really cool screensaver, but then you couldn't actually install it? Well, now you can do those things and much more, thanks to my Scratch to Flash converter. As you can probably tell from the name, it converts an SB or SB2 file to an <a href="http://en.wikipedia.org/wiki/Adobe_Flash">Adobe Flash</a> SWF file. This allows you to run your Scratch projects offline, put them on your website, convert them to apps or EXE's, or send them to people who don't have Scratch installed. You can either use the <a href="/converter/online/">online converter</a> or you can <a href="/converter/download/">download</a> a copy of the program to use offline.
+			<p>Hey Scratchers! Have you ever made an awesome game, but the friend you wanted to send it to didn't have Scratch? Or have you made a project that would be a really cool screensaver, but then you couldn't actually install it? Well, now you can do those things and much more, thanks to my Scratch to Flash converter. As you can probably tell from the name, it converts an SB or SB2 file to an <a href="http://en.wikipedia.org/wiki/Adobe_Flash">Adobe Flash</a> SWF file. This allows you to run your Scratch projects offline, put them on your website, <a href="/converter/executables/">convert them to apps or EXE's</a>, or send them to people who don't have Scratch installed. You can either use the <a href="/converter/online/">online converter</a> or you can <a href="/converter/download/">download</a> a copy of the program to use offline.
 
 </p>
 			<h3>How do I use it?</h3>
-			<p>To start the online converter, simply click <a href="/converter/online/">here</a>. You should see the program in the middle of the screen. Click "Open Scratch File" and browse for the project on your computer. Then, click "Convert to SWF". A dialog box should pop up asking to save the file. Type whatever name you want (be sure you add ".swf" at the end) and then click "save".
+			<p>To start the online converter, simply click <a href="/converter/online/">here</a>. You should see the program in the middle of the screen. Click <i>Open Scratch File</i> and browse for the project on your computer. Choose any settings that you want to enable. If you aren't sure, just leave the check boxes unselected. Then, click <i>Convert to SWF</i>. A dialog box should pop up asking to save the file. Type whatever name you want (be sure you add <i>.swf</i> at the end) and then click <i>Save</i>. This will produce a SWF file on your computer!
 
 These instructions also apply to the downloadable version. Visit the <a href="/converter/download/">downloads page</a> to get a copy. Then, you can simply extract the zip file and open "Converter.html".
 
 </p>
 			<h3>How does it work?</h3>
 			<p>When you play a Scratch game, the Scratch <i>interpreter</i>, a built-in part of both the Scratch website and the Offline Editor, runs the project's scripts. Although Scratch is based in Flash, the projects are never compiled to ActionScript code. Instead, the interpreter executes each block in the project by running the corresponding ActionScript functions. This converter doesn't actually compile the project to ActionScript either. It simply places it inside a copy of Scratch, along with a <i>loader</i>, a script which automatically reads the SB2 and tells Scratch to interpret it. It also controls any modifications you might have chosen, like hiding the green flag bar or turning on turbo mode by default. The combination of Scratch, the loader, and the project is called a <i>projector</i>. This is what your converted SWF file actually is.
-
-</p>
-			<h3>Known Problems</h3>
-			<p>I'll be the first to admit that this is a work in progress and is far from perfect. If you have read the <a href="/converter/troubleshooting">troubleshooting advice</a> and still can't get it to work, you may have found a bug. Please <a href="/contact/">let me know</a>. Here are some of the larger issues that I already know about:
-
-- Cloud variables don't work
-- The username block doesn't work
-- Due to a bug in Chrome, the online converter can't save SWFs in incognito mode
-- There may be a brief white screen when opening the SWF
-- There may be white bars on the bottom or right sides of the SWF
-- The source code text files might not display properly on Windows (UNIX line endings)
-
-Most of these aren't going to be fixed any time soon, as they are caused by limitations in Scratch or problems with other software.
 
 </p>
 			<h3>License</h3>
