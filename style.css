@@ -3,7 +3,7 @@ body
 	margin:0px 0px 5px 0px;
 	padding:0px;
 	font-size:16px;
-	font-family:"Helvetica",sans-serif;
+	font-family:"Helvetica","Arial",sans-serif;
 	background-color:#DDDDDD;
 }
 div
@@ -17,7 +17,7 @@ div
 }
 object
 {
-	border: 1px dashed #777777;
+	border:1px dashed #777777;
 }
 #header
 {
@@ -27,7 +27,7 @@ object
 }
 .button
 {
-	margin:inherit;
+	margin:2px;
 	padding:3px;
 	border:1px solid #888888;
 	border-radius:3px;
@@ -44,7 +44,7 @@ object
 #buttons
 {
 	line-height:30px;
-	margin:2px;
+	margin:0px;
 }
 #navigation
 {
@@ -63,7 +63,8 @@ h1
 	font-weight:600;
 	font-size:60px;
 	line-height:60px;
-	color:#00CC55;
+	// color:#00CC55;
+	color:#00CF45;
 }
 h2
 {
@@ -103,4 +104,8 @@ a:hover
 img
 {
 	border:1px dashed #777777;
+}
+.thumbnail
+{
+	width:300px;
 }
