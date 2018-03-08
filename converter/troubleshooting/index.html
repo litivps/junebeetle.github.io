@@ -9,28 +9,39 @@
 			<iframe src="/common.html" id="header"></iframe>
 		</div>
 		<div>
-			<h2>Troubleshooting</h2>
-			<p>If the converter isn't working for you, please read the following tips. If you don't understand how to use the converter, please first read the <a href="/converter/">main converter page</a>.
+			<h2>Troubleshooting and Known Problems</h2>
+			<p><a class="button" href="/converter/">Back to Converter Page</a>
+
+If the converter isn't working for you, you're in the right place. It's far from perfect, and there are some things that might not work properly. Please <a href="/contact/">contact me</a> if you've read this and you're still having trouble.
 
 </p>
-	<h3>The converter doesn't load.</h3>
-	<p>If you don't see anything, or you see an error message, you may not have a working Flash Player. Try downloading it from <a href="http://get.adobe.com/flashplayer">here</a>. If you see an alert about a security risk or outdated Flash player, just allow it to run. It is not dangerous and will not make any modifications to your computer.
+			<h3>The converter doesn't load or displays an error.</h3>
+			<p>You may not have a working Flash Player. Try downloading it from <a href="http://get.adobe.com/flashplayer">here</a>. If you see an alert about a security risk or outdated Flash player, allow it to run.
 
 </p>
-	<h3>The SWF won't save.</h3>
-	<p>Are you using an incognito window in Google Chrome? If so, there is a bug in Chrome's built-in Flash Player which stops Flash from saving files. Switch to a standard (non-incognito) window or a different browser.
+
+			<h3>The converted file is an unknown type or can't open.</h3>
+			<p>Make sure to save your file with a SWF extension so that your computer can tell what type of file it is. For example, name the project <i>Game.swf</i> when you save it. Once you do that, try opening it in a browser or a <a href="https://www.adobe.com/support/flashplayer/debug_downloads.html">standalone Flash Player</a> (download the <i>projector</i> version).
 
 </p>
-	<h3>I can't open the SWF, or I get a file other than a SWF.</h3>
-	<p>Make sure to save your file with a SWF extension so that your computer can tell what type of file it is. For example, name the project <i>Game.swf</i> when you save it. If the converted file is already on your computer, you can simply rename it so that it ends in <i>.swf</i>. If your computer is unable to find a program to open the SWF with, try using a browser. You can also download a standalone Flash Player; however, it is not usually necessary. Your computer already has a Flash plugin if you can use the converter.
+			<h3>Converted projects can't communicate with Scratch server.</h3>
+			<p>Things such as the <i>username</i> block and Cloud Variables will not work. If you want to make a project that relies on these, it usually makes the most sense to share it on the Scratch website.
 
 </p>
-	<h3>The SWF opens, but it doesn't work.</h3>
-	<p>First, ensure that you are converting a valid Scratch project. Try opening it with Scratch to see if it is corrupted. If it is an SB (Scratch 1.4) file, try opening it in Scratch 2 and then saving it again in the new SB2 format. Then, try converting the project with the default settings. Don't check any boxes or change the width and height. There is also a known bug in the converter caused by a new security restriction in Flash Player 23+ which can prevent SWF files saved locally from loading. See the <a href="/converter/bugs/">known problems</a> page for more information.
+			<h3>Saving doesn't work in Chrome incognito mode.</h3>
+			<p>Due to a bug in Google Chrome, if you try to use the converter in incognito mode, you can't save the converted SWF file. Please switch to a non-incognito window or a different browser.
 
 </p>
-	<h3>Something else.</h3>
-	<p>If these tips don't help you or you're having a problem not mentioned here, there's a chance that you've found a bug that I don't know about. Please see the <a href="/converter/bugs/">known problems</a> page. If that doesn't help, why not <a href="/contact/">contact me</a>? I may be able to help you, and that way I will know about the problem.</p>
+			<h3>White screen while project loads.</h3>
+			<p>Sometimes a converted project will show a white screen for a few seconds while the project loads, especially on slow connections or complex projects. If a project still doesn't load after a minute or so, you might be missing a Flash Player or experiencing a different bug (see below).
+
+</p>
+			<h3>White bar on the bottom or right side of the SWF.</h3>
+			<p>The Scratch stage is a 4:3 ratio, which can't be easily changed. Please adjust the dimensions of the SWF file so the stage fits properly into the window.
+
+</p>
+			<h3>Converted projects don't load in newer versions of Flash Player.</h3>
+			<p>Adobe has changed the security restrictions in Flash Player 23 and onwards. They basically prevent <i>local</i> SWF files (saved on your computer) from being able to use some Loader functions that Scratch needs. I can't workaround this, but you can bypass it by hosting your SWF file on a website or converting it to an application. This will bypass the security restriction by making the SWF no longer be a <i>local-with-network</i> file. See <a href="/converter/executables/">this page</a> for more info on converting SWF files to standalone executables for your platform.</p>
 		</div>
 	</body>
 </html>

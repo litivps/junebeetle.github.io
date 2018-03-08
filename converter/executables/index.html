@@ -10,30 +10,32 @@
 		</div>
 		<div>
 			<h2>Converting SWF files to executables</h2>
-			<p>With my converter, you can convert your Scratch projects into SWF files. You may not know that you can also convert SWF files into standalone applications for your operating system! This guide will only cover converting them into EXEs and macOS applications, although it is also possible to do this for Android and Linux.
+			<p><a class="button" href="/converter/">Back to Converter Page</a>
+
+Once you convert your Scratch project to a SWF, you can convert it into a standalone application for your operating system! This guide will only cover converting to Windows and macOS applications, although it is also possible to do this for Android and Linux. <a href="/contact/">Contact me</a> if you have any trouble; this process can be a bit confusing.
 
 </p>
 			<h3>Downloading a standalone Flash Player</h3>
-			<p>This conversion works by packaging your SWF file inside a Flash Player, similarly to how your Scratch project is packaged inside the SWF! This means that you will need to download a Flash Player to package it in. The best version to use is Flash Player 11. You can download it directly from Adobe's server <a href="http://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.235_archive.zip">here</a> (about 150 megabytes). Once you have downloaded the ZIP file, extract it. Inside, you will find three folders, one ending in <i>32bit</i>, one ending in <i>64bit</i>, and one ending in <i>debug</i>. Choose the first one because it contains the standalone Flash Players. Now, continue to the section for your operating system for instructions on which one to use and how to do the actual conversion.
+			<p>This conversion works by packaging your SWF file inside a Flash Player, just like your SWF is a Scratch project is packaged inside Scratch! So, you need to download a standalone Flash Player from <a href="http://fpdownload.macromedia.com/get/flashplayer/installers/archive/fp_11.2.202.235_archive.zip">here</a>. Unzip/extract the file. Inside, you will find three folders, one ending in <i>32bit</i>, one ending in <i>64bit</i>, and one ending in <i>debug</i>. Choose the first one because it contains the standalone Flash Players. Now, continue to the section for your operating system for the actual packaging step.
 
 </p>
 			<h3>Converting to EXE</h3>
-			<p>If you are on Windows, you will want to convert the SWF to an EXE file. Open the item called <i>flashplayer11_2r202_235_win_sa_32bit.exe</i> (32-bit standalone Flash Player 11 for Windows). Choose <i>File</i> > <i>Open...</i>, press <i>Browse...</i>, and select the SWF file you want to convert. Then choose <i>File</i> > <i>Create Projector...</i>. Now you can save the converted EXE.
+			<p>If you are on Windows, you will want to convert the SWF to an EXE file. Open the item called <i>flashplayer11_2r202_235_win_sa_32bit.exe</i> (32-bit standalone Flash Player 11 for Windows). Choose <i>File</i> > <i>Open</i>, press <i>Browse...</i>, and select the SWF file you want to convert. Then choose <i>File</i> > <i>Create Projector</i>. This will produce a Windows program containing your SWF.
 
 </p>
 			<h3>Converting to APP</h3>
-			<p>If you use a Mac, you need to convert it to a macOS APP. Open the <i>flashplayer11_2r202_235_mac_sa.app.zip</i> file, which will expand to an application called <i>Flash Player.app</i>. Open <i>Flash Player.app</i>, and choose <i>File</i> > <i>Open...</i>. Select the SWF file that you want to convert. Then, choose <i>File</i> > <i>Create Projector...</i> and save the converted macOS application.
+			<p>If you use a Mac, you need to convert it to a macOS application. Open the <i>flashplayer11_2r202_235_mac_sa.app.zip</i> file, which will expand to an application called <i>Flash Player.app</i>. Open <i>Flash Player.app</i>, and choose <i>File</i> > <i>Open</i>. Select the SWF file that you want to convert. Then, choose <i>File</i> > <i>Create Projector</i> and save the converted macOS application.
 
-Occasionally, when you open the Flash Player app, you might encounter an error stating that it is damaged or by an unidentified developer. The easiest solution is to use the command line. Open Terminal, and type the following command.</p>
+Occasionally, when you open the Flash Player app on macOS, you might encounter an error that it is damaged or by an "unidentified developer". The easiest solution is to use the command line. Open Terminal, and type the following command:</p>
 		<pre>cp -RX</pre>
 		<p>
-Make sure that there is a space after the command. Now, drag the Flash Player app into the Terminal window. It will should say something like this:</p>
+followed by a space. Now, drag the Flash Player app into the Terminal window. It should say something like this:</p>
 		<pre>cp -RX /Users/junebeetle/Desktop/Flash\ Player.app</pre>
 		<p>
-Then, add a space, and then the path to the folder you want it to put the fixed copy. In my example, I use the Desktop. This works well, I'd suggest that you do the same if you are not used to the Terminal.</p>
+Add a space and then type the output path, such as your Desktop:</p>
 		<pre>cp -RX /Users/junebeetle/Desktop/Flash\ Player.app ~/Desktop/</pre>
 		<p>
-The ~  (tilde) means your home folder. Press Enter, and you should see the Flash Player app appear on the Desktop. This copy will (hopefully) open without trouble. Now, you can follow the steps above to convert the SWF to an app using the fixed copy.</p>
+Press Enter, and it will copy the Flash Player to your Desktop, but leaving some metadata behind. This bypasses macOS's security and should allow you to open it as normal.</p>
 		</div>
 	</body>
 </html>
